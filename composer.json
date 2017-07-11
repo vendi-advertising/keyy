@@ -19,5 +19,8 @@
     "require-dev": {
         "phpunit/phpunit": "^6.2",
         "WordPress/wordpress-develop": "dev-master"
+    },
+    "config": {
+        "optimize-autoloader": true
     }
 }
