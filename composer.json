@@ -1,4 +1,7 @@
 {
+    "name": "vendi-advertising/keyy",
+    "description": "Unofficial clone of the Keyy WordPress plugin",
+    "license": "MIT",
     "repositories": [
         {
             "type": "package",
