@@ -32,4 +32,4 @@ before_script:
 
 script:
   - cd $TRAVIS_BUILD_DIR
-  - ./run-phpunit.sh
+  - ./run-phpunit.sh --database wordpress_test --user travis --password ''
