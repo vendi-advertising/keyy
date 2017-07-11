@@ -1,0 +1,1 @@
+jQuery(document).ready(function(e){e("#keyy-sso-begin-session").click(function(e){alert("TODO"),e.preventDefault()}),setTimeout(function(){e("#keyy-sso-offer, .keyy_message.notice.updated keyy-sso-offer-notice").slideUp("slow")},25e3)});

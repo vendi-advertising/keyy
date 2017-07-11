@@ -1,0 +1,151 @@
+/*
+ * This file, for efficiency, contains admin for all of the admin, site-admin and sso pages (i.e. there is no separate site-admin.css or sso.css). Since this can potentially be included anywhere (the page the user sees after logging in could be anywhere), all classes need prefixing or rules need sufficient specificity, unless their contents are not going to be changed by any sensible plugin (e.g. clear-left).
+ * 
+ */
+div.keyy-minor-notice.notice {
+  max-width: 780px;
+  margin-left: 0; }
+
+#keyy-sso-offer {
+  border: 1px solid;
+  border-radius: 3px;
+  padding: 4px;
+  margin: 4px 6px;
+  clear: both; }
+
+#keyy-admin-body {
+  width: 800px; }
+
+.clear-left {
+  clear: left; }
+
+@media (max-width: 580px) {
+  #keyy-admin-body .half-width-box {
+    clear: left; } }
+
+@media (min-width: 581px) {
+  #keyy-second-box {
+    margin-left: 20px; } }
+
+#keyy-admin-body .half-width-box {
+  float: left;
+  width: 360px;
+  border: 2px dotted;
+  padding: 9px;
+  height: 310px;
+  margin-top: 12px; }
+
+#keyy-admin-body ul {
+  list-style: disc;
+  margin-left: 18px; }
+
+#keyy-admin-body h2 {
+  margin-top: 0px;
+  padding-top: 0px; }
+
+#keyy_connect, #keyy_disconnect {
+  font-size: 150%;
+  text-align: center;
+  margin-left: 36px;
+  margin-top: 50px; }
+
+#keyy_connect_qrcode {
+  margin-left: 70px; }
+
+#keyy_connected_message {
+  clear: left;
+  padding-top: 12px;
+  font-style: italic;
+  font-size: 120%; }
+
+.keyy_spinner {
+  width: 18px;
+  height: 18px;
+  padding-left: 10px;
+  display: none;
+  position: relative;
+  top: 4px; }
+
+#keyy_save_done, #keyy_save_done_user {
+  display: none;
+  color: #D94F00;
+  font-size: 250%; }
+
+.keyy-site-admin-user-settings {
+  max-width: 600px;
+  padding: 8px;
+  margin-left: 20px;
+  margin-top: 10px;
+  border: 1px dotted; }
+
+#keyy-admin-send-codes {
+  clear: left;
+  padding-top: 12px; }
+
+#keyy_what_is_this_answer {
+  width: 400px;
+  height: 100px;
+  float: left;
+  margin-bottom: 10px; }
+
+#keyy_admin_save_settings {
+  float: left;
+  clear: left;
+  margin-top: 4px; }
+
+#keyy-user-control .float-left {
+  float: left; }
+
+#keyy-user-control .float-right {
+  float: right; }
+
+#keyy-user-control .keyy-spinner-container {
+  width: 40px; }
+
+button.keyy-user-disconnect {
+  /* !important because WP's default button styles over-ride it */
+  margin-right: 4px !important;
+  margin-bottom: 4px !important; }
+
+.keyy_choose_user {
+  width: 240px; }
+
+.keyy-site-policy-row {
+  float: left;
+  clear: left; }
+
+.keyy-site-policy-row-delete {
+  cursor: pointer;
+  color: red;
+  font-size: 120%;
+  font-weight: bold;
+  border: 0px;
+  border-radius: 3px;
+  padding: 2px;
+  margin: 0 6px; }
+
+.keyy-site-policy-row-delete:hover {
+  cursor: pointer;
+  color: white;
+  background: red; }
+
+.keyy-site-wide-policies-create {
+  float: left;
+  clear: left; }
+
+#keyy-site-wide-policies {
+  clear: both;
+  float: left; }
+
+hr.keyy-admin-hr {
+  clear: both; }
+
+#keyy-user-connection-code-validity-days, #keyy-role-connection-code-validity-days {
+  width: 64px; }
+
+.keyy-user-send-connection-email {
+  margin-top: 4px !important; }
+
+#keyy-connection-email-validity-period {
+  position: relative;
+  top: 4px; }

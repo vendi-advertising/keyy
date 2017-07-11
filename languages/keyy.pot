@@ -1,0 +1,718 @@
+# Copyright (C) 2017 keyy
+# This file is distributed under the same license as the keyy package.
+msgid ""
+msgstr ""
+"Project-Id-Version: keyy\n"
+"Report-Msgid-Bugs-To: http://example.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: John Doe <mail@example.com>\n"
+"Language-Team: Team Updraft <mail@example.com>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/includes/class-commands.php:203
+msgid "An error occurred when saving. The save was not successful."
+msgstr ""
+
+#: src/includes/class-commands.php:279
+msgid "This site has been disconnected from your Keyy app."
+msgstr ""
+
+#: src/includes/class-commands.php:514, src/includes/class-commands.php:544
+msgid "The user %s has been logged out."
+msgstr ""
+
+#: src/includes/class-commands.php:600
+msgid "The login token is not allowed to be used by this user. Please try again."
+msgstr ""
+
+#: src/includes/class-commands.php:603, src/includes/login.php:605
+msgid "The login token was not valid (already used). Please try again."
+msgstr ""
+
+#: src/includes/class-commands.php:641
+msgid "The request to login as %s was accepted."
+msgstr ""
+
+#: src/includes/class-commands.php:676
+msgid "The attempt to connect failed. Please try again."
+msgstr ""
+
+#: src/includes/class-commands.php:692
+msgid "No setup process was active - perhaps it timed out. You should try again."
+msgstr ""
+
+#: src/includes/class-commands.php:696
+msgid "No setup process was active - perhaps it timed out and you should try again."
+msgstr ""
+
+#: src/includes/class-commands.php:700
+msgid "The security token received was incorrect; perhaps it had expired. Please try again."
+msgstr ""
+
+#: src/includes/class-commands.php:704
+msgid "The security token was valid, but no account email address was indicated."
+msgstr ""
+
+#: src/includes/class-commands.php:707
+msgid "The attempt to connect succeeded."
+msgstr ""
+
+#: src/includes/keyy-notices.php:45
+msgid "Upgrade to Keyy Premium"
+msgstr ""
+
+#: src/includes/keyy-notices.php:46
+msgid "More sites, more users, more features."
+msgstr ""
+
+#: src/includes/keyy-notices.php:55
+msgid "Like Keyy and can spare one minute?"
+msgstr ""
+
+#: src/includes/keyy-notices.php:56
+msgid "Please help Keyy by giving a positive review at wordpress.org."
+msgstr ""
+
+#: src/includes/login.php:124
+msgid "secret URL used to login"
+msgstr ""
+
+#: src/includes/login.php:124
+msgid "This is a notice for the site administrator of %s."
+msgstr ""
+
+#: src/includes/login.php:124
+msgid "The secret URL, intended for when a Keyy scan is not possible, was used to de-activate Keyy for the login process."
+msgstr ""
+
+#: src/includes/login.php:124
+msgid "The details of the login are below - you should check them in case they are unexpected."
+msgstr ""
+
+#: src/includes/login.php:124
+msgid "You will also need to visit the Keyy page in your WordPress dashboard to obtain the new secret URL, because the old one cannot be used again."
+msgstr ""
+
+#: src/includes/login.php:124
+msgid "User logging in: %s (%s)"
+msgstr ""
+
+#: src/includes/login.php:124
+msgid "Logging in from: %s"
+msgstr ""
+
+#: src/includes/login.php:124
+msgid "User agent: %s"
+msgstr ""
+
+#: src/includes/login.php:236
+msgid "<strong>ERROR</strong>: This user has set up their account to require a successful scan with Keyy, which was not done."
+msgstr ""
+
+#: src/includes/login.php:247
+msgid "<strong>ERROR</strong>: The Keyy scan did not succeed. Please try again."
+msgstr ""
+
+#: src/includes/login.php:256
+msgid "No valid login credentials were provided. Please try again."
+msgstr ""
+
+#: src/includes/login.php:603
+msgid "The login token was not valid. It may have expired; please try again."
+msgstr ""
+
+#: src/includes/translations.php:8
+msgid "Role"
+msgstr ""
+
+#: src/includes/translations.php:9
+msgid "Delete"
+msgstr ""
+
+#: src/includes/translations.php:10
+msgid "use this policy"
+msgstr ""
+
+#: src/includes/translations.php:11
+msgid "An unexpected response was received."
+msgstr ""
+
+#: src/includes/translations.php:12
+msgid "The token has expired; a replacement is being retrieved..."
+msgstr ""
+
+#: src/includes/translations.php:13
+msgid "An error occurred. Please refresh the page and try again."
+msgstr ""
+
+#: src/includes/translations.php:14
+msgid "What is this?"
+msgstr ""
+
+#: src/includes/translations.php:15
+msgid "The login form was not found. Please try again."
+msgstr ""
+
+#: src/includes/translations.php:16
+msgid "Keyy has been disabled. Only WordPress's default login mechanisms (and any others from other plugins) are active."
+msgstr ""
+
+#: src/includes/translations.php:17
+msgid "An authorised login request from your Keyy app has been received. Please now enter your password to complete login."
+msgstr ""
+
+#: src/includes/translations.php:18
+msgid "You must first choose a valid user."
+msgstr ""
+
+#: src/includes/translations.php:19
+msgid "The user must use a password"
+msgstr ""
+
+#: src/includes/translations.php:20
+msgid "The user must scan with Keyy"
+msgstr ""
+
+#: src/includes/translations.php:21
+msgid "The user must both use a password and scan with Keyy"
+msgstr ""
+
+#: src/includes/translations.php:22
+msgid "Emails sent: %s Emails failed to send: %s"
+msgstr ""
+
+#: src/includes/translations.php:23
+msgid "The next batch will now be sent."
+msgstr ""
+
+#: src/includes/translations.php:24
+msgid "All emails have now been sent."
+msgstr ""
+
+#: src/keyy.php:274
+msgid "Keyy status..."
+msgstr ""
+
+#: src/keyy.php:276
+msgid "Connected"
+msgstr ""
+
+#: src/keyy.php:277
+msgid "Not connected"
+msgstr ""
+
+#: src/keyy.php:287
+msgid "Filter"
+msgstr ""
+
+#: src/keyy.php:294
+msgid "Higher PHP version required"
+msgstr ""
+
+#: src/keyy.php:294, src/keyy.php:318
+msgid "The %s plugin requires %s version %s or higher - your current version is only %s."
+msgstr ""
+
+#: src/keyy.php:302, src/keyy.php:310
+msgid "Keyy disabled"
+msgstr ""
+
+#: src/keyy.php:302
+msgid "The %s plugin has been disabled via the %s constant - to re-enable it, remove this constant from your WordPress configuration."
+msgstr ""
+
+#: src/keyy.php:310
+msgid "The %s plugin cannot work, because the REST interface has been explicitly turned off on this site; probably by another plugin. You will need to enable the WordPress REST interface to use %s."
+msgstr ""
+
+#: src/keyy.php:318
+msgid "Higher WordPress version required"
+msgstr ""
+
+#: src/keyy.php:326
+msgid "Potentially problematic webserver module installed (%s)"
+msgstr ""
+
+#: src/keyy.php:326
+msgid "If you have problems using Keyy, then you should check its configuration and logs, in case it is blocking Keyy."
+msgstr ""
+
+#: src/keyy.php:454, src/keyy.php:455, src/keyy.php:477
+msgid "Keyy Login"
+msgstr ""
+
+#: src/keyy.php:490
+msgid "Keyy website"
+msgstr ""
+
+#: src/keyy.php:603
+msgid "Error:"
+msgstr ""
+
+#: src/keyy.php:603
+msgid "template not found"
+msgstr ""
+
+#: src/keyy.php:719
+msgid "This is Keyy. Get the Keyy app on your phone, set it up once, and scan to login. No passwords to forget!"
+msgstr ""
+
+#: src/keyy.php:719
+msgid "Get Keyy here."
+msgstr ""
+
+#: src/premium/loader.php:128
+msgid "If the user cannot log in in order to set up Keyy, then you can send them a code to scan to connect via email:"
+msgstr ""
+
+#: src/premium/loader.php:128
+msgid "Send connection email"
+msgstr ""
+
+#: src/premium/loader.php:142
+msgid "Keyy"
+msgstr ""
+
+#: src/premium/loader.php:156
+msgid "All Roles"
+msgstr ""
+
+#: src/premium/loader.php:159
+msgid "Network super-admin"
+msgstr ""
+
+#: src/premium/loader.php:188
+msgid "The specified user was not found"
+msgstr ""
+
+#: src/premium/loader.php:552
+msgid "<strong>ERROR</strong>: The user's login settings will not allow this login to proceed."
+msgstr ""
+
+#: src/premium/loader.php:982
+msgid "A Keyy scan logs you in; no passwords."
+msgstr ""
+
+#: src/premium/loader.php:983
+msgid "Logins need a Keyy scan AND a password."
+msgstr ""
+
+#: src/premium/loader.php:984
+msgid "Logins need a Keyy scan OR a password."
+msgstr ""
+
+#: src/premium/site-admin.php:96
+msgid "Keyy Administration"
+msgstr ""
+
+#: src/premium/site-admin.php:96
+msgid "Keyy Admin"
+msgstr ""
+
+#: src/premium/site-admin.php:197
+msgid "The site administrator has put Keyy in \"stealth mode\"."
+msgstr ""
+
+#: src/premium/site-admin.php:197
+msgid "This means that you must press the key %s on the login form to make the Keyy code visible."
+msgstr ""
+
+#: src/premium/site-admin.php:201
+msgid "Site-wide administration of Keyy"
+msgstr ""
+
+#: src/premium/templates/dashboard-site-admin-page.php:7
+msgid "User control"
+msgstr ""
+
+#: src/premium/templates/dashboard-site-admin-page.php:9
+msgid "To see and adjust a particular user's Keyy setup, start searching for their login or email address here."
+msgstr ""
+
+#: src/premium/templates/dashboard-site-admin-page.php:23
+msgid "Site-wide login policies"
+msgstr ""
+
+#: src/premium/templates/dashboard-site-admin-page.php:25
+msgid "Here, you can create particular policies that apply to particular types of users. For users who have no site-wide policies created, they will be free to make their own choices."
+msgstr ""
+
+#: src/premium/templates/dashboard-site-admin-page.php:25
+msgid "If you include more than one policy for a user, then they will each be applied sequentially (which may leave you with an undesired or impossible result)."
+msgstr ""
+
+#: src/premium/templates/dashboard-site-admin-page.php:25
+msgid "Note that users are always allowed to choose a more restrictive policy than you have chosen (e.g. if you decide that someone must use Keyy, then they are permitted to require a password as well)."
+msgstr ""
+
+#: src/premium/templates/dashboard-site-admin-page.php:31
+msgid "Create a new policy..."
+msgstr ""
+
+#: src/premium/templates/dashboard-site-admin-page.php:39
+msgid "Users who are not yet connected to Keyy"
+msgstr ""
+
+#: src/premium/templates/dashboard-site-admin-page.php:42
+msgid "Currently connected users: %s."
+msgstr ""
+
+#: src/premium/templates/dashboard-site-admin-page.php:42
+msgid "Unconnected users: %s."
+msgstr ""
+
+#: src/premium/templates/dashboard-site-admin-page.php:47
+msgid "If you set a policy that requires users to login in future via Keyy, and those users are not currently logged in, then they will need to be sent an email to scan."
+msgstr ""
+
+#: src/premium/templates/dashboard-site-admin-page.php:47
+msgid "You can use this tool to do so."
+msgstr ""
+
+#: src/premium/templates/dashboard-site-admin-page.php:61
+msgid "This function is not available; you first need to install these missing PHP modules: %s"
+msgstr ""
+
+#: src/premium/templates/dashboard-site-admin-page.php:67
+msgid "Send emails"
+msgstr ""
+
+#: src/premium/templates/dashboard-site-admin-page.php:69, src/premium/templates/site-admin-user-settings-html.php:43
+msgid "Valid for %s days"
+msgstr ""
+
+#: src/premium/templates/dashboard-site-admin-page.php:83
+msgid "Other Keyy settings"
+msgstr ""
+
+#: src/premium/templates/dashboard-site-admin-page.php:95
+msgid "Stealth mode"
+msgstr ""
+
+#: src/premium/templates/dashboard-site-admin-page.php:96
+msgid "Activate this setting to make the Keyy code invisible on login forms, until the key %s is pressed on the keyboard."
+msgstr ""
+
+#: src/premium/templates/dashboard-site-admin-page.php:96
+msgid "Remember to tell your users!"
+msgstr ""
+
+#: src/premium/templates/dashboard-site-admin-page.php:100
+msgid "Hide password fields"
+msgstr ""
+
+#: src/premium/templates/dashboard-site-admin-page.php:101
+msgid "Activate this setting to hide the username and password fields on login forms."
+msgstr ""
+
+#: src/premium/templates/dashboard-site-admin-page.php:101
+msgid "This only makes sense if you have set policies that allow users to log in via Keyy only (i.e. not require a password)."
+msgstr ""
+
+#: src/premium/templates/dashboard-site-admin-page.php:108
+msgid "Act as session server"
+msgstr ""
+
+#: src/premium/templates/dashboard-site-admin-page.php:110
+msgid "Activate this expert setting only if you wish to use Single Sign-On, and for this server to act as a session server."
+msgstr ""
+
+#: src/premium/templates/dashboard-site-admin-page.php:110
+msgid "You will then need to configure it to be used by all your other sites."
+msgstr ""
+
+#: src/premium/templates/dashboard-site-admin-page.php:112
+msgid "This looks like a localhost site - if so, it cannot be used as a session server for other non-localhost sites."
+msgstr ""
+
+#: src/premium/templates/dashboard-site-admin-page.php:120
+msgid "Login form text"
+msgstr ""
+
+#: src/premium/templates/dashboard-site-admin-page.php:121
+msgid "The text you enter here will be shown on login forms as the answer to the question \"What is this?\""
+msgstr ""
+
+#: src/premium/templates/dashboard-site-admin-page.php:121
+msgid "Make it empty to remove the question completely."
+msgstr ""
+
+#: src/premium/templates/dashboard-site-admin-page.php:128
+msgid "Save settings"
+msgstr ""
+
+#: src/premium/templates/email-connect-plain.php:3
+msgid "The site administrator of %s has installed Keyy, for easier and more secure logins. To log in with Keyy, you need to: 1) Install the Keyy app on your phone or tablet, and 2) Use that app to scan the code in this email. You will then be set up for fast and secure logins."
+msgstr ""
+
+#: src/premium/templates/email-connect-plain.php:7, src/premium/templates/email-connect.php:11
+msgid "N.B. The scan code will expire soon. You should install Keyy and scan it straight away."
+msgstr ""
+
+#: src/premium/templates/email-connect-plain.php:11, src/premium/templates/email-connect.php:15
+msgid "For the Keyy app for Android, go here: %s. For the Keyy app for iOS (Apple), go here: %s"
+msgstr ""
+
+#: src/premium/templates/email-connect-plain.php:13
+msgid "You will need to view this mail as HTML in your email program to be able to see the scan code. It cannot show as plain text."
+msgstr ""
+
+#: src/premium/templates/email-connect-plain.php:17
+msgid "If you don't know about Keyy, you can learn more here: %s"
+msgstr ""
+
+#: src/premium/templates/email-connect.php:5
+msgid "The site administrator of %s has installed Keyy, for easier and more secure logins. To log in with Keyy, you need to do the following:"
+msgstr ""
+
+#: src/premium/templates/email-connect.php:7
+msgid "Install the Keyy app on your phone or tablet"
+msgstr ""
+
+#: src/premium/templates/email-connect.php:7
+msgid "Use that app to scan the code below. You will then be set up for fast and secure logins."
+msgstr ""
+
+#: src/premium/templates/email-connect.php:19
+msgid "Turn on images in your email program to be able to see this scan code, or use the file attachment."
+msgstr ""
+
+#: src/premium/templates/email-connect.php:30
+msgid "If you don't know about Keyy, you can learn more here."
+msgstr ""
+
+#: src/premium/templates/site-admin-user-settings-html.php:7
+msgid "Refresh"
+msgstr ""
+
+#: src/premium/templates/site-admin-user-settings-html.php:15
+msgid "This user (%s, %s) is currently connected to Keyy"
+msgstr ""
+
+#: src/premium/templates/site-admin-user-settings-html.php:23
+msgid "This user (%s, %s) is not currently connected to Keyy for logging in on this site."
+msgstr ""
+
+#: src/premium/templates/site-admin-user-settings-html.php:32
+msgid "Disconnect (force user to set up again)"
+msgstr ""
+
+#: src/premium/templates/site-admin-user-settings-html.php:35
+msgid "Log out everywhere"
+msgstr ""
+
+#: src/premium/templates/site-admin-user-settings-html.php:41
+msgid "Send connection scan code by email"
+msgstr ""
+
+#: src/premium/templates/site-admin-user-settings-html.php:47
+msgid "The function to email the user a connection code is not available; you first need to install these missing PHP modules: %s"
+msgstr ""
+
+#: src/premium/templates/user-password-options.php:3
+msgid "Multi-factor options"
+msgstr ""
+
+#: src/templates/dashboard-already-connected.php:3
+msgid "Keyy links"
+msgstr ""
+
+#: src/templates/dashboard-already-connected.php:6, src/templates/dashboard-page.php:69
+msgid "Keyy Android app"
+msgstr ""
+
+#: src/templates/dashboard-already-connected.php:6
+msgid "iOS (iPhone, iPad) app"
+msgstr ""
+
+#: src/templates/dashboard-already-connected.php:7
+msgid "Like Keyy? Give us a review!"
+msgstr ""
+
+#: src/templates/dashboard-already-connected.php:8
+msgid "Think we can improve? Tell us how!"
+msgstr ""
+
+#: src/templates/dashboard-already-connected.php:11
+msgid "You may also like..."
+msgstr ""
+
+#: src/templates/dashboard-already-connected.php:14
+msgid "UpdraftPlus - #1 most installed backup plugin"
+msgstr ""
+
+#: src/templates/dashboard-already-connected.php:15
+msgid "UpdraftCentral - manage all your sites from one dashboard"
+msgstr ""
+
+#: src/templates/dashboard-already-connected.php:16
+msgid "WP Optimize - #1 most installed optimization plugin"
+msgstr ""
+
+#: src/templates/dashboard-already-connected.php:17
+msgid "More premium plugins (mostly for WooCommerce)"
+msgstr ""
+
+#: src/templates/dashboard-header.php:5, src/templates/dashboard-header.php:5
+msgid "WordPress logins made easy"
+msgstr ""
+
+#: src/templates/dashboard-header.php:5
+msgid "Site administration"
+msgstr ""
+
+#: src/templates/dashboard-header.php:8
+msgid "Premium"
+msgstr ""
+
+#: src/templates/dashboard-header.php:9
+msgid "News"
+msgstr ""
+
+#: src/templates/dashboard-header.php:10
+msgid "Twitter"
+msgstr ""
+
+#: src/templates/dashboard-header.php:11
+msgid "Support"
+msgstr ""
+
+#: src/templates/dashboard-header.php:12
+msgid "Newsletter"
+msgstr ""
+
+#: src/templates/dashboard-header.php:13
+msgid "Lead developer's homepage"
+msgstr ""
+
+#: src/templates/dashboard-header.php:14
+msgid "More plugins"
+msgstr ""
+
+#: src/templates/dashboard-header.php:14
+msgid "Version"
+msgstr ""
+
+#: src/templates/dashboard-page.php:20
+msgid "Unknown"
+msgstr ""
+
+#: src/templates/dashboard-page.php:28
+msgid "You are connected to Keyy"
+msgstr ""
+
+#: src/templates/dashboard-page.php:32
+msgid "This user is connected to the Keyy account belonging to %s."
+msgstr ""
+
+#: src/templates/dashboard-page.php:39
+msgid "As a result, your password is inactive - all logging-in for this account is now through your Keyy app."
+msgstr ""
+
+#: src/templates/dashboard-page.php:42
+msgid "Disconnect from my Keyy app"
+msgstr ""
+
+#: src/templates/dashboard-page.php:46
+msgid "Got the app? Scan this code to connect."
+msgstr ""
+
+#: src/templates/dashboard-page.php:51
+msgid "Scan this code with the Keyy app on your phone."
+msgstr ""
+
+#: src/templates/dashboard-page.php:66
+msgid "First-time user? Get the app."
+msgstr ""
+
+#: src/templates/dashboard-page.php:71
+msgid "Keyy iOS (iPhone, iPad) app"
+msgstr ""
+
+#: src/templates/dashboard-page.php:75
+msgid "Use the above buttons to install the Keyy app on your phone or tablet. Or, search for \"Keyy\" in the store on the device."
+msgstr ""
+
+#: src/templates/dashboard-page.php:75
+msgid "Run the app, and it will create your account."
+msgstr ""
+
+#: src/templates/dashboard-page.php:81
+msgid "N.B. This website looks like a localhost install (i.e. no incoming networking from the outside world). These are not supported by this early release of Keyy."
+msgstr ""
+
+#: src/templates/dashboard-page.php:81
+msgid "We have plans, so please look out for updates!"
+msgstr ""
+
+#: src/templates/dashboard-page.php:83
+msgid "Learn about new features and improvements we are currently working on for our next releases, here."
+msgstr ""
+
+#: src/templates/dashboard-page.php:98
+msgid "URL to login without Keyy (%s): %s"
+msgstr ""
+
+#: src/templates/dashboard-page.php:98
+msgid "read more"
+msgstr ""
+
+#: src/templates/notices/horizontal-notice.php:6
+msgid "notice image"
+msgstr ""
+
+#: src/templates/notices/horizontal-notice.php:16, src/templates/notices/horizontal-notice.php:18
+msgid "Dismiss"
+msgstr ""
+
+#: src/templates/notices/horizontal-notice.php:31
+msgid "Get UpdraftCentral"
+msgstr ""
+
+#: src/templates/notices/horizontal-notice.php:33
+msgid "Review Keyy"
+msgstr ""
+
+#: src/templates/notices/horizontal-notice.php:35
+msgid "Get UpdraftPlus"
+msgstr ""
+
+#: src/templates/notices/horizontal-notice.php:37
+msgid "Sign up"
+msgstr ""
+
+#: src/templates/notices/horizontal-notice.php:39
+msgid "Go there"
+msgstr ""
+
+#: src/templates/notices/horizontal-notice.php:41
+msgid "Buy or find out more."
+msgstr ""
+
+#: src/templates/sso-message.php:5
+msgid "Keyy: Single sign-on"
+msgstr ""
+
+#: src/templates/sso-message.php:7
+msgid "To begin a Keyy single sign-on session, %s."
+msgstr ""
+
+#: src/templates/sso-message.php:7
+msgid "press here"
+msgstr ""
+
+#: src/templates/sso-message.php:9
+msgid "Or, to learn more about single sign-on, %s."
+msgstr ""
+
+#: src/templates/sso-message.php:9
+msgid "go here"
+msgstr ""

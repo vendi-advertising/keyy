@@ -1,0 +1,29 @@
+.keyy_qrcode_container {
+  text-align: center;
+  padding-bottom: 12px; }
+
+.keyy_qrcode_container_disabled {
+  text-align: center;
+  font-style: italic;
+  padding-bottom: 12px; }
+
+.keyy_qrcode_container .keyy_qrcode {
+  clear: left; }
+
+.keyy_qrcode_descriptor {
+  font-style: italic;
+  clear: left;
+  text-align: center; }
+
+.tooltip {
+  opacity: 0.8; }
+
+.ui-tooltip {
+  padding: 8px;
+  position: absolute;
+  z-index: 9999;
+  max-width: 300px;
+  box-shadow: 0 0 5px #AAA; }
+
+body .ui-tooltip {
+  border-width: 2px; }
