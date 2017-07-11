@@ -1,8 +1,23 @@
 {
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "WordPress/wordpress-develop",
+                "version": "master",
+                "source": {
+                    "url": "https://github.com/WordPress/wordpress-develop.git",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        }
+    ],
     "require": {
         "phpseclib/phpseclib": "^1"
     },
     "require-dev": {
-        "phpunit/phpunit": "^6.2"
+        "phpunit/phpunit": "^6.2",
+        "WordPress/wordpress-develop": "dev-master"
     }
 }

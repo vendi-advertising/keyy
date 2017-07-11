@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "06567c903b7868491ee24dcb6e43492b",
+    "content-hash": "4212e840aef7d66cf520fd3e3bd90592",
     "packages": [
         {
             "name": "phpseclib/phpseclib",
@@ -107,6 +107,16 @@
         }
     ],
     "packages-dev": [
+        {
+            "name": "WordPress/wordpress-develop",
+            "version": "master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/WordPress/wordpress-develop.git",
+                "reference": "master"
+            },
+            "type": "library"
+        },
         {
             "name": "doctrine/instantiator",
             "version": "1.0.5",
@@ -1559,7 +1569,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "wordpress/wordpress-develop": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
