@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4212e840aef7d66cf520fd3e3bd90592",
+    "content-hash": "8a930c9022e092df8695811166b12a4a",
     "packages": [
         {
             "name": "phpseclib/phpseclib",
@@ -115,7 +115,8 @@
                 "url": "https://github.com/WordPress/wordpress-develop.git",
                 "reference": "master"
             },
-            "type": "library"
+            "type": "library",
+            "time": "2017-07-11 13:29:51"
         },
         {
             "name": "doctrine/instantiator",
