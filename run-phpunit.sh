@@ -7,10 +7,10 @@
 DB_USER='unit_chris'
 DB_PASS='unit_chris'
 DB_NAME='unit_chris'
+CREATE_DB=false
 while [[ $# -gt 0 ]]
 do
     key="$1"
-    echo "$key";
 
         case $key in
 
@@ -32,6 +32,10 @@ do
             -p|--password)
                 DB_PASS="$2"
                 shift # past argument
+            ;;
+
+            --create-database)
+                CREATE_DB=true
             ;;
 
             --update-composer)
@@ -62,6 +66,10 @@ cp $CONFIG_TEMPLATE_FILE $CONFIG_FILE
 sed -i "s|youremptytestdbnamehere|${DB_NAME}|g" $CONFIG_FILE
 sed -i "s|yourusernamehere|${DB_USER}|g" $CONFIG_FILE
 sed -i "s|yourpasswordhere|${DB_PASS}|g" $CONFIG_FILE
+
+if [ "$CREATE_DB" = true ]; then
+    mysqladmin create $DB_NAME --user="$DB_USER" --password="$DB_PASS"
+fi
 
 if [ -z "$GROUP" ]; then
     ./vendor/bin/phpunit --coverage-html ./tests/logs/coverage/
